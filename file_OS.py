@@ -18,7 +18,7 @@ for root, dirs, files in os.walk(directory):
         #размер файла
         filesize = os.path.getsize(filepath)
 
-        #оснавная директорию файла
+        #оснавная директория файла
         parent_dir = os.path.dirname(filepath)
 
         #информацию о файле
