@@ -21,5 +21,5 @@ for root, dirs, files in os.walk(directory):
         #оснавная директория файла
         parent_dir = os.path.dirname(filepath)
 
-        #информацию о файле
+        #информация о файле
         print(f'Обнаружен файл: {file}, Путь: {filepath}, Размер: {filesize} байт, Время изменения: {formatted_time}, Родительская директория: {parent_dir}')
