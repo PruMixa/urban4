@@ -20,7 +20,6 @@ def is_prime(func):
 
 @is_prime
 def sum_three(a, b, c):
-    """Функция для суммирования трех чисел."""
     return a + b + c
 
 
